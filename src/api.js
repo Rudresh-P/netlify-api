@@ -17,7 +17,7 @@ router.get("/", (req,res)=>{
 
 router.get("/wob",(req,res)=>{
     res.json({
-        "breathing":true
+        "breathing":false
     })
 })
 
